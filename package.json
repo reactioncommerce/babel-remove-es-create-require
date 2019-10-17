@@ -1,0 +1,37 @@
+{
+  "name": "@reactioncommerce/babel-remove-es-create-require",
+  "description": "A Babel plugin that removes `createRequire` calls",
+  "version": "0.0.0-development",
+  "main": "index.js",
+  "homepage": "https://github.com/reactioncommerce/babel-remove-es-create-require",
+  "url": "https://github.com/reactioncommerce/babel-remove-es-create-require",
+  "email": "engineering@reactioncommerce.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/babel-remove-es-create-require.git"
+  },
+  "author": {
+    "name": "Reaction Commerce",
+    "email": "engineering@reactioncommerce.com",
+    "url": "https://reactioncommerce.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/babel-remove-es-create-require/issues"
+  },
+  "keywords": [
+    "babel-plugin"
+  ],
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "prettier": {
+    "arrowParens": "always"
+  },
+  "release": {
+    "branch": "trunk"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
